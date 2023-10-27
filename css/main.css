@@ -1,3 +1,29 @@
+.blockquoteMD {
+  font-style: italic; font-size: 20px;
+}
+.exp-MDick {
+  width: 560px; margin: 20px auto; margin: 30px; background-color: #fafafa;
+}
+
+.idx-blq {
+  padding: 2px 20px; background-color: #fafafa;
+}
+.image-link {
+  href="https://twitter.com/RailsTutorialJP" target="_blank"
+      rel="noopener"
+}
+.img-MDbook {
+  display: block; float: left; margin: 0 40px 0 0 ;
+}
+.img-whale {
+  display: block; margin: 0 auto;
+}
+.Ismael {
+  font-style: normal; font-size: 24px; font-weight: bold; color: #f00;
+}
+.Moby-header {
+  text-align: center; margin: 0 0 80px;
+}
 .nav-menu {
   text-align: right;
 }
