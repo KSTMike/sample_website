@@ -3,12 +3,13 @@
   <head>
     <title>HTMLタグ一覧</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <div>
-      <a href="index.html">homeページ</a>
-      <a href="tags.html">HTMLタグ一覧</a>
-      <a href="moby_dick.html">読書案内『Moby Dick』</a>
+    <div class="nav-menu">
+      <a href="index.html" style="text-decoration: none;">homeページ</a>
+      <a href="tags.html"  class="nav-spacing" style="text-decoration: none;">HTMLタグ一覧</a>
+      <a href="moby_dick.html" class="nav-spacing" style="text-decoration: none;">読書案内『Moby Dick』</a>
     </div>
     <h1>重要なHTMLタグ一覧</h1>
     <a href="https://www.flickr.com/photos/jdhancock/3814523970" target="_blank" rel="noopener">
@@ -16,7 +17,7 @@
     </a>
     
     <p>
-      このページは、<a href="https://railstutorial.jp/html"> Railsチュートリアル『<em>HTML編</em>』</a>で多用されるタグのいくつかをすぐ参照できるクイックリファレンスページとして作られます。このページの制作を通じて、HTMLのテーブル（<em>table</em>）を<code>table</code>タグやそれに関連するタグの使い方を学びます。
+      このページは、<a href="https://railstutorial.jp/html" style=" text-decoration: none;"> Railsチュートリアル『<em>HTML編</em>』</a>で多用されるタグのいくつかをすぐ参照できるクイックリファレンスページとして作られます。このページの制作を通じて、HTMLのテーブル（<em>table</em>）を<code>table</code>タグやそれに関連するタグの使い方を学びます。
     </p>
     <p>
       以下のテーブルに含まれるHTMLタグは全体の一部に過ぎませんが、重要なHTMLについてはここで参照できます。
@@ -118,7 +119,7 @@
             &lt;a href="https://learnenough.com/"&gt;:Learn Enough&lt;/a&gt;
           </code>
         </td>
-        <td><a href="https://learnenough.com/" target="_blank" rel="noopener">Learn Enough</a></td>
+        <td><a href="https://learnenough.com/" target="_blank" rel="noopener" style=" text-decoration: none;">Learn Enough</a></td>
       </tr>
       <tr>
         <td><code>img</code></td>
@@ -143,8 +144,46 @@
         <td>範囲（span）</td>
         <td>インライン要素をグループ化</td>
         <td>&lt;span style="color:#ff0000;"&gt;ハイパーリンク&lt;/span&gt;</td>
-        <td><span style="color: #ff0000;">ハイパーリンク</span></td>
+        <td><span style="color: #f00;">ハイパーリンク</span></td>
       </tr>
+    </table>
+    <h2>ドキュメントタグ</h2>
+    <table>
+      <tr>
+        <th>HTMLタグ</th>
+        <th>タグ名</th>
+        <th>目的</th>
+      </tr>
+      <tr>
+        <td><code>html</code></td>
+        <td>Hyper Text Markup Language</td>
+        <td>内容がHTMLドキュメントを示す</td>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td>ヘッド（head）</td>
+        <td>HTMLドキュメントの情報を示す</td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>本体（body）</td>
+        <td>コンテンツの表示</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>表題（title）</td>
+        <td>タイトルの表示</td>
+      </tr>
+      <tr>
+      <td><code>meta</code></td>
+      <td>高次の（meta）</td>
+      <td>システムに情報を伝える</td>
+    </tr>
+    <tr>
+      <td><code>base</code></td>
+      <td>規定URL（base）</td>
+      <td>基準・相対パスURLの基準となるURL</td>
+    </tr>
     </table>
   </body>
 </html>
